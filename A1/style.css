@@ -1,0 +1,46 @@
+<style type="text/css">
+		body,html {
+			background-color:#303030;
+			color:#FFFFFF;
+			font-family: Helvetica, Arial, "sans-serif";
+		}
+		#container {
+			width:800px;
+			margin:100px auto;
+			background-color:#B5D3CF;
+			padding-top: 20px;
+			padding-bottom: 30px;
+		}
+		#header {
+			background-color:#FFFFFF;
+			color: black;
+		}
+		#hlink {
+			padding:20px;
+			display:inline-block;
+			-webkit-transition: background-color 0.5s ease-out;
+  			-moz-transition: background-color 0.5s ease-out;
+  			-o-transition: background-color 0.5s ease-out;
+  			transition: background-color 0.5s ease-out;
+		}
+		#header a {
+			color:#000;
+			font-weight: bold;
+			text-decoration: none;
+		}
+		#hlink:hover {
+			background-color: #DBDBDB;
+			color:#4B4B4B;
+		}
+		#hdate {
+			padding:20px;
+			float:right;
+			display:inline-block;
+		}
+		#content {
+			padding:10px;
+		}
+		#footer {
+			text-align: center;
+		}
+	</style>
